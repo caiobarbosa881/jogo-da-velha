@@ -1,12 +1,92 @@
-.space{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-}
-.container{
-    background-color: black;
+*{
+    margin: auto;
 }
 #main-container{
     margin-top: 100px;
     text-align: center;;
+    background-color: black;
+    height: 700px;
+    width: 700px;
+}
+#cell1{
+    position: relative;
+    right: 250px;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#cell2{
+    bottom: 200px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#cell3{
+    bottom: 400px;
+    position: relative;
+    left: 250px;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#cell4{
+    position: relative;
+    bottom: 340px;
+    right: 250px;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+}
+#cell5{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+}
+#cell6{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+}
+#cell7{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+}
+#cell8{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+}
+#cell9{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+}
+#vertical-right{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    position: absolute;
+    right: 818px;
+    margin-top: 5px;
+    height: 700px;
+    width: 33px;
+}
+#vertical-left{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    position: absolute;
+    right: 1068px;
+    margin-top: 5px;
+    height: 700px;
+    width: 33px;
+}
+#horizontal-top{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 310px;
+    right: 605px;
+    height: 40px;
+    width: 700px;
 }
